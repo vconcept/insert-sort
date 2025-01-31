@@ -20,12 +20,13 @@ function insertSort(arr = [], i) {
            arr[x] = i;
         }
         else {
-            break;
+            continue;
         }
     }
     console.log(arr);
     rl.close();
     });
+
 }
 
 insertSort([23, 34, 67, 122]);
